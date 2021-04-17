@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.CONTINNER {
+  height: 100vh;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: monospace;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(70, 244, 252, 1) 100%
+  );
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 350px;
+  border-radius: 10px;
+  height: 75vh;
+  top: 5vh;
+  position: relative;
+  background-color: rgb(252, 252, 250);
+}
+
+.card img {
+  width: auto;
+  height: 300px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #fff;
+  border: black solid 2px;
+  background-color: rgb(13, 169, 207);
+  border-radius: 5px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.card a:hover {
+  padding: 5px 15px;
+  background-color: rgb(166, 223, 9);
+}
+
+.logo {
+  color: cornsilk;
+  text-shadow: 2px 2px black;
+}
+
+.logo .auto {
+  color: rgb(231, 209, 9);
+}
+
+.renault {
+  height: fit-content;
+  background-color: teal;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  border: black solid 2px;
+  background-color: rgb(13, 169, 207);
+  border-radius: 5px;
+  padding: 10px 20px;
+  position: relative;
+  bottom: -20px;
+}
+
+ul li a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  justify-content: space-around;
+  position: relative;
+}
+
+.cardcar {
+  width: 400px;
+  height: auto;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: tahoma;
+  background-color: white;
+}
+
+.cardcar p {
+  bottom: 8px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.cardcar img {
+  width: 350px;
+  height: auto;
+}
